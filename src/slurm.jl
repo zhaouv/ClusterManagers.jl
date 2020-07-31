@@ -2,8 +2,6 @@
 
 export SlurmManager, addprocs_slurm
 
-import Logging.@warn
-
 struct SlurmManager <: ClusterManager
     np::Integer
 end
